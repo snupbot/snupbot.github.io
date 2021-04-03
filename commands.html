@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SnupBot</title>
+    <link
+      rel="icon"
+      type="imagem/png"
+      href="https://cdn.discordapp.com/attachments/786714411314315338/821815917553254410/icon.png"
+    />
+    <style>
+      body {
+        background-color: #36393f;
+      }
+      html {
+        margin: 0;
+        padding: 0;
+        font-family: exo, sans-serif;
+      }
+      body {
+        font-family: "Titillium Web";
+      }
+      img {
+        width: 50%;
+        height: auto;
+        float: center;
+      }
+      @media only screen and (min-width: 400px) {
+        img {
+          width: 20%;
+        }
+      }
+      .button {
+        background-color: #7289DA;
+        border: none;
+        color: white;
+        font-size: 300%;
+      }
+      .button:hover {
+        background-color: #6c8af5;
+      }
+
+      .button4 {
+        border-radius: 25px;
+      }
+      body {
+        font-family: "Titillium Web";
+        margin: 0;
+      }
+      div {
+        text-align: center;
+        font-family: "Titillium Web";
+      }
+
+      button {
+        border: none;
+        padding: 15px 30px;
+        background-color: #B0BEC5;
+        font-size: 15px;
+        font-weight: bold;
+        color: #555;
+        margin: 8px;
+        outline: none;
+        border-radius: 5px;
+      }
+      but {
+        border: none;
+
+        background-color: #B0BEC5;
+        font-size: 15px;
+        font-weight: bold;
+        color: #555;
+        margin: 8px;
+        outline: none;
+        border-radius: 5px;
+      }
+
+      p.title {
+        margin-top: 0;
+        font-size: 250%;
+        font-family: exo, sans-serif;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+      }
+      p.h2 {
+        font-size: 250%;
+        font-family: exo, sans-serif;
+        font-weight: bold;
+      }
+      h2 {
+        font-size: 300%;
+        font-family: exo, sans-serif;
+        font-weight: bold;
+        margin-top: 2px;
+        color: white;
+        text-align: center;
+        padding-bottom: 0.5%;
+        padding-top: 2%;
+        position: relative;
+      }
+      h2.left {
+        text-align: left;
+      }
+      div.divider {
+        padding-left: 200px;
+        padding-right: 200px;
+      }
+      ul#menu {
+        list-style: none;
+        margin: -16px;
+        margin-bottom: 20px;
+        margin-right: 10px;
+        /*background-color: rgba("0,0,0"); /*#2f3136*/
+      }
+      ul#menu li {
+        display: inline-block;
+        padding: 2%;
+        font-size: 150%;
+        font-family: exo, sans-serif;
+        font-weight: bold;
+        color: white;
+        position: relative;
+      }
+      ul#menu li a {
+        text-decoration: none;
+        color: #ffffff;
+      }
+      img.logo {
+        width: 75%;
+      }
+      ul#menu li.text {
+        margin: -15px;
+      }
+      h3 {
+        font-size: 150%;
+        font-family: exo, sans-serif;
+        font-weight: bold;
+        color: white;
+        text-align: left;
+        position: relative;
+        margin: 1px;
+      }
+      h4 {
+        font-size: 125%;
+        font-family: exo, sans-serif;
+        font-weight: bold;
+        color: #188aa3;
+        text-align: left;
+        position: relative;
+        margin: 1px;
+      }
+      hr.solid {
+        border-top: 2px #3b3d42;
+        text-decoration: none;
+      }
+      img.classifier {
+        float: right;
+        margin: 0;
+        width: 15%;
+      }
+        * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    .text {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 5rem;
+      color: #fff;
+      border: 3px solid #fff;
+      padding: 2rem 4rem;
+    }
+
+    .gradient {
+      align-items: center;
+      justify-content: center;
+      /* Colors generated on: https://colorhunt.co/palette/179481 */
+      background: linear-gradient(45deg, #084177, #687466, #cd8d7b, #fbc490);
+      background-size: 300% 300%;
+      animation: colors 15s ease infinite;
+      font-family: "Titillium Web";
+        margin: 0;
+    }
+
+    @keyframes colors {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    </style>
+  </head>
+  <body class="gradient">
+    <ul id="menu">
+      <li>
+        <a href="index.html"
+          ><img
+            class="logo"
+            src="https://cdn.discordapp.com/attachments/786714411314315338/821912168957345832/botlogooptimized.png"
+        /></a>
+      </li>
+      <li>
+        <a
+          href="https://discord.com/oauth2/authorize?client_id=820461105171791923&scope=bot&permissions=2147483647"
+          >Invite</a
+        >
+      </li>
+      <li>
+        <a href="https://snupbot-website.glitch.me/commands.html">Commands</a>
+      </li>
+      <li><a href="https://discord.gg/cKvpTUSt2K">Support's Server</a></li>
+    </ul>
+    <h2>Lista de comandos!</h2>
+    <p class="title">Veja abaixo nossa lista de comandos!</p>
+    <div class="divider">
+      <hr class="solid" />
+      <img
+        class="classifier"
+        src="https://cdn.discordapp.com/attachments/786714411314315338/822532295956627496/Adminhexagon01.png"
+      />
+
+      <h3>s.clear</h3>
+      <h4>
+        Limpe o chat!
+      </h4>
+    </div>
+     <div class="divider">
+      <hr class="solid" />
+      <img
+        class="classifier"
+        src="https://cdn.discordapp.com/attachments/786714411314315338/822532295956627496/Adminhexagon01.png"
+      />
+
+      <h3>s.prefix</h3>
+      <h4>
+        Troque o prefixo! (o meu prefixo padrão é <em>s.</em>)
+      </h4>
+    </div>
+     <div class="divider">
+      <hr class="solid" />
+      <img
+        class="classifier"
+        src="https://cdn.discordapp.com/attachments/786714411314315338/822532295956627496/Adminhexagon01.png"
+      />
+
+      <h3>s.say</h3>
+      <h4>
+        Faça eu dizer qualquer coisa!
+      </h4>
+    </div>
+    <div class="divider">
+      <hr class="solid" />
+      <img
+        class="classifier"
+        src="https://cdn.discordapp.com/attachments/786714411314315338/822532295956627496/Adminhexagon01.png"
+      />
+
+      <h3>s.ban</h3>
+      <h4>
+        Dê ban em um membro! <em>(use com cautela)</em>
+      </h4>
+    </div>
+     <div class="divider">
+      <hr class="solid" />
+      <img
+        class="classifier"
+        src="https://cdn.discordapp.com/attachments/786714411314315338/822532295956627496/Adminhexagon01.png"
+      />
+
+      <h3>s.kick</h3>
+      <h4>
+        Dê kick em um membro! <em>(use com cautela)</em>
+      </h4>
+    </div>
+     <div class="divider">
+      <hr class="solid" />
+      <img
+        class="classifier"
+        src="https://cdn.discordapp.com/attachments/786714411314315338/822541713889296384/funhexagon.png"
+      />
+
+      <h3>s.baiano</h3>
+      <h4>
+        Meça a preguiça de um membro!
+      </h4>
+    </div>
+      <div class="divider">
+      <hr class="solid" />
+      <img
+        class="classifier"
+        src="https://cdn.discordapp.com/attachments/786714411314315338/822541713889296384/funhexagon.png"
+      />
+
+      <h3>s.bite</h3>
+      <h4>
+        Está com raiva? Morda uma pessoa!
+      </h4>
+    </div>
+     <div class="divider">
+      <hr class="solid" />
+      <img
+        class="classifier"
+        src="https://cdn.discordapp.com/attachments/786714411314315338/822541713889296384/funhexagon.png"
+      />
+
+      <h3>s.cancelar</h3>
+      <h4>
+        Alguém de seu servidor está sendo cancelado? Defina o motivo real com este comando!
+      </h4>
+    </div>
+    <div class="divider">
+      <hr class="solid" />
+      <img
+        class="classifier"
+        src="https://cdn.discordapp.com/attachments/786714411314315338/822541713889296384/funhexagon.png"
+      />
+
+      <h3>s.highfive</h3>
+      <h4>
+        Toque aqui com seus amigos!
+      </h4>
+    </div>
+  
+    <div class="divider">
+      <hr class="solid" />
+      <img
+        class="classifier"
+        src="https://cdn.discordapp.com/attachments/786714411314315338/822541713889296384/funhexagon.png"
+      />
+
+      <h3>s.hug</h3>
+      <h4>
+        Está carente? dê um abraço em alguém!
+      </h4>
+    </div>
+    <div class="divider">
+      <hr class="solid" />
+      <img
+        class="classifier"
+        src="https://cdn.discordapp.com/attachments/786714411314315338/822541713889296384/funhexagon.png"
+      />
+
+      <h3>s.kiss</h3>
+      <h4>
+        Beije a(o) cremosa(o)!
+      </h4>
+    </div>
+     <div class="divider">
+      <hr class="solid" />
+      <img
+        class="classifier"
+        src="https://cdn.discordapp.com/attachments/786714411314315338/822541713889296384/funhexagon.png"
+      />
+
+      <h3>s.ship</h3>
+      <h4>
+        Um novo casal? Confirme com o s.ship!
+      </h4>
+    </div>
+     <div class="divider">
+      <hr class="solid" />
+      <img
+        class="classifier"
+        src="https://cdn.discordapp.com/attachments/786714411314315338/822541713889296384/funhexagon.png"
+      />
+
+      <h3>s.slap</h3>
+      <h4>
+        Está com raiva de alguém? Descarregue-a toda em alguém dando um tapa com este comando!
+      </h4>
+    </div>
+     <div class="divider">
+      <hr class="solid" />
+      <img
+        class="classifier"
+        src="https://cdn.discordapp.com/attachments/786714411314315338/822541713889296384/funhexagon.png"
+      />
+
+      <h3>s.talk</h3>
+      <h4>
+        Faça me uma pergunta que eu lhe responderei com toda a sinceridade!
+      </h4>
+    </div>
+    <div class="divider">
+      <hr class="solid" />
+      <img
+        class="classifier"
+        src="https://cdn.discordapp.com/attachments/786714411314315338/822541713889296384/funhexagon.png"
+      />
+
+      <h3>s.balance</h3>
+      <h4>
+        Mostra o tanto de moedas que o usuário tem!
+      </h4>
+    </div>
+     <div class="divider">
+      <hr class="solid" />
+      <img
+        class="classifier"
+        src="https://cdn.discordapp.com/attachments/786714411314315338/822554378770710568/economyhexagon.png"
+      />
+
+      <h3>s.balance</h3>
+      <h4>
+        Mostra o tanto de moedas que o usuário tem!
+      </h4>
+    </div>
+    <div class="divider">
+      <hr class="solid" />
+      <img
+        class="classifier"
+        src="https://cdn.discordapp.com/attachments/786714411314315338/822554378770710568/economyhexagon.png"
+      />
+
+      <h3>s.daily</h3>
+      <h4>
+        Pega as recompensas diárias!
+      </h4>
+    </div>
+    <div class="divider">
+      <hr class="solid" />
+      <img
+        class="classifier"
+        src="https://cdn.discordapp.com/attachments/786714411314315338/822554378770710568/economyhexagon.png"
+      />
+
+      <h3>s.pay</h3>
+      <h4>
+        Pague moedas a algum usuário!
+      </h4>
+    </div>
+     <div class="divider">
+      <hr class="solid" />
+      <img
+        class="classifier"
+        src="https://cdn.discordapp.com/attachments/786714411314315338/822546003944800266/mischexagon.png"
+      />
+
+      <h3>s.avatar</h3>
+      <h4>
+        Mostra o avatar do usuário!
+      </h4>
+    </div>
+     <div class="divider">
+      <hr class="solid" />
+      <img
+        class="classifier"
+        src="https://cdn.discordapp.com/attachments/786714411314315338/822546003944800266/mischexagon.png"
+      />
+
+      <h3>s.botinfo</h3>
+      <h4>
+        Mostra as informações do BOT!
+      </h4>
+    </div>
+    <div class="divider">
+      <hr class="solid" />
+      <img
+        class="classifier"
+        src="https://cdn.discordapp.com/attachments/786714411314315338/822546003944800266/mischexagon.png"
+      />
+
+      <h3>s.help</h3>
+      <h4>
+        Mostra o comando de ajuda!
+      </h4>
+    </div>
+     <div class="divider">
+      <hr class="solid" />
+      <img
+        class="classifier"
+        src="https://cdn.discordapp.com/attachments/786714411314315338/822546003944800266/mischexagon.png"
+      />
+
+      <h3>s.ping</h3>
+      <h4>
+        Mostra o seu ping em relação a API do Discord!
+      </h4>
+    </div>
+     <div class="divider">
+      <hr class="solid" />
+      <img
+        class="classifier"
+        src="https://cdn.discordapp.com/attachments/786714411314315338/822546003944800266/mischexagon.png"
+      />
+
+      <h3>s.serverinfo</h3>
+      <h4>
+        Mostra as informações do servidor!
+      </h4>
+    </div>
+    <div class="divider">
+      <hr class="solid" />
+      <img
+        class="classifier"
+        src="https://cdn.discordapp.com/attachments/786714411314315338/822546003944800266/mischexagon.png"
+      />
+
+      <h3>s.uptime</h3>
+      <h4>
+        Mostra o tempo que o BOT está online!
+      </h4>
+    </div>
+    <div class="divider">
+      <hr class="solid" />
+      <img
+        class="classifier"
+        src="https://cdn.discordapp.com/attachments/786714411314315338/822546003944800266/mischexagon.png"
+      />
+
+      <h3>s.userinfo</h3>
+      <h4>
+        Mostra as informações do usuário!
+      </h4>
+    </div>
+  </body>
+</html>
