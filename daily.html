@@ -7,10 +7,12 @@
       type="imagem/png"
       href="https://cdn.discordapp.com/attachments/786714411314315338/821815917553254410/icon.png"
     />
-    <script type="text/javascript">
-      var onloadCallback = function() {
-        alert("grecaptcha is ready!");
-      };
+    <script>
+    function onloadCallback() { // Callback
+      $(function () { // Site carregado
+          grecaptcha.execute(); // Executa o recaptcha
+      });
+  }
     </script>
 <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
 async defer>
