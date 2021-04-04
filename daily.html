@@ -7,7 +7,14 @@
       type="imagem/png"
       href="https://cdn.discordapp.com/attachments/786714411314315338/821815917553254410/icon.png"
     />
-
+    <script type="text/javascript">
+      var onloadCallback = function() {
+        alert("grecaptcha is ready!");
+      };
+    </script>
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+async defer>
+</script>
     <style>
       body {
         background-color: #36393f;
@@ -213,12 +220,10 @@
       cooldown do daily!<br />Caso você usar algo que burle o daily você poderá
       ser proibido de usar o SnupBOT!
     </p>        
-    <form action="#" method="POST">
-      <div
-        class="g-recaptcha"
-        data-sitekey="6Lfe2JoaAAAAAPiFEZAWGR2H9byNfM4Hsv-wP5Mh"
-      ></div>
-      <br />
+    <form action="?" method="POST">
+      <div class="g-recaptcha" data-sitekey="6Lfe2JoaAAAAAPiFEZAWGR2H9byNfM4Hsv-wP5Mh"></div>
+      <br/>
+      <input type="submit" value="Submit">
     </form>
   </body>
 </html>
